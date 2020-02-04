@@ -17,5 +17,11 @@ This is the repo for work in Api dot net core 3 and Sql server with docker
 13. dotnet tool install --global dotnet-ef
 14. dotnet ef migrations add PaymentDetailDB
 15. dotnet run 
+16. dotnet add paymentdetailapi.csproj package Swashbuckle.AspNetCore -v 5.0.0
+17. using Microsoft.OpenApi.Models; in startup.
+18.   services.AddSwaggerGen
+19. Configure UseSwagger() and UseSwaggerUI.
+20.  GenerateDocumentationFile in csprog.
+
 
 
